@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="val.css">
+</head>
+<body>
+    <div id="container">
+        <form action="" id="form">
+            <h2>Register</h2>
+        <div class="input-group">
+            <label for="username">Username</label><br>
+            <input type="text" class="formv" id="username">
+            <div class="error"></div>
+        </div>
+        <div class="input-group">
+            <label for="email">Email</label><br>
+            <input type="text" class="formv" id="email">
+            <div class="error"></div>
+        </div>
+        <div class="input-group">
+            <label for="password">Password</label><br>
+            <input type="password" class="formv" id="password">   
+            <div class="error"></div>
+        </div>
+        <div class="input-group">
+            <label for="cpassword">confirm Password</label><br>
+            <input type="password" class="formv" id="cpassword">
+            <div class="error"></div>
+        </div>
+        <div class="input-group">
+        <input type="checkbox" id="terms">
+        <label for="terms">I agree <a href="">terms and conditions</a></label>
+        <div class="error"></div>
+    </div>
+        <div>
+            <button class="formv" id="submit">Submit</button>
+        </div>
+    </form>
+    </div>
+
+    <script src="formva.js"></script>
+</body>
+</html>
